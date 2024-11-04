@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Antariksa</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo"> <i data-feather="coffee"></i> Antariksa </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li><a href="#home" class="nav_link">Home</a></li>
+            <li><a href="#menu" class="nav_link">Menu</a></li>
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+          </ul>
+          <div class="nav_close" id="nav-close">
+            <i data-feather="x"></i>
+          </div>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i data-feather="menu"></i>
+        </div>
+
+        <div class="nav_keranjang" id="nav-keranjang">
+          <i data-feather="shopping-cart"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home section" id="home">
+      <div class="home_container">
+        <div class="home_data">
+          <h1 class="home_title">Your Journey to Flavor Starts Here</h1>
+          <p class="home_description">Quality coffee that’s easy to love, brewed fresh every day.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+      <h2 class="section_title">MENU</h2>
+      <div class="menu_container">
+        <div class="menu-item">
+          <img src="1.jpeg" alt="Cafe Latte" class="menu_image" />
+          <h3>Cafe Latte</h3>
+          <p>Rp. 18.000</p>
+          <button class="add-to-cart" onclick="addToCart('Cafe Latte', 18000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="2.jpeg" alt="Mojito" class="menu_image" />
+          <h3>Mojito</h3>
+          <p>Rp. 20.000</p>
+          <button class="add-to-cart" onclick="addToCart('Mojito', 20000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="3.jpeg" alt="Milky Way Aren" class="menu_image" />
+          <h3>Milky Way Aren</h3>
+          <p>Rp. 19.000</p>
+          <button class="add-to-cart" onclick="addToCart('Milky Way Aren', 19000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="4.jpeg" alt="Salted Caramel" class="menu_image" />
+          <h3>Salted Caramel</h3>
+          <p>Rp. 16.000</p>
+          <button class="add-to-cart" onclick="addToCart('Salted Caramel', 16000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="5.jpeg" alt="Thai Tea" class="menu_image" />
+          <h3>Thai Tea</h3>
+          <p>Rp. 13.000</p>
+          <button class="add-to-cart" onclick="addToCart('Thai Tea', 13000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="6.jpeg" alt="Caramel Macchiato" class="menu_image" />
+          <h3>Caramel Macchiato</h3>
+          <p>Rp. 23.000</p>
+          <button class="add-to-cart" onclick="addToCart('Caramel Macchiato', 23000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="7.jpeg" alt="Chocolate" class="menu_image" />
+          <h3>Chocolate</h3>
+          <p>Rp. 23.000</p>
+          <button class="add-to-cart" onclick="addToCart('Chocolate', 23000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="menu-item">
+          <img src="8.jpeg" alt="Choco Rum" class="menu_image" />
+          <h3>Choco Rum</h3>
+          <p>Rp. 23.000</p>
+          <button class="add-to-cart" onclick="addToCart('Choco Rum', 23000)">Tambahkan ke Keranjang</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section_title">Contact</h2>
+      <p>Have questions or need help? Reach out to us!</p>
+
+      <div class="contact_container">
+        <div class="contact_info">
+          <a href="https://www.instagram.com/antariksa.kopi?igsh=aWMwOHJvbTcwenR0" target="_blank">Instagram : @antariksa.kopi</a>
+          <p>Email: Antariksa@gmail.com</p>
+          <p>Phone: +62 83-4561-7890</p>
+          <p>Address: Semarang, City, Indonesia</p>
+        </div>
+
+        <!-- Maps Container -->
+        <div class="contact_map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.993815968103!2d110.39966079999999!3d-7.0100093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b8e09b8d0fb%3A0x9bc3f744287f759!2sAntariksa%20Kopi!5e0!3m2!1sen!2sid!4v1730363540886!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Antariksa Cafe</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
